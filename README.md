@@ -25,7 +25,7 @@ AngularJS interceptor and serializer for x-www-form-urlencoded
 ```
 
 ```
-  $http.post('destination', {name, {invoice:{id:1, value: 123.23}},
+  $http.post('destination', {name:'Felipe Leonhardt', {invoice:{id:1, value: 123.23}},
        headers: {
          'Content-Type': 'application/x-www-form-urlencoded'
        }); 
